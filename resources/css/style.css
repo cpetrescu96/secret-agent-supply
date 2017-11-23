@@ -74,8 +74,30 @@ body {
 
 .title-nav h1{
     font-size: 2rem;
-
 }
 
 /*MAIN-MENU*/
 
+.menu-nav {
+    background-color: firebrick;   
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container {
+    width: 960px;
+}
+ 
+.meniu {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0.25rem 0rem;
+}
+
+/*CONTENT*/
+
+.things {
+    display: inline-flex;
+}
