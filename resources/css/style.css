@@ -2,12 +2,12 @@ html,
 body {
     font-size: 18px;
     font-family: Helvetica; 
+
 }
 
 .container {
     display: flex;
     width: 960px;
-    justify-content: flex-start;
 }
 
 /*title of the site*/
@@ -19,7 +19,7 @@ body {
     justify-content: center;
 }
 
-.top-nav img {
+.top-nav-black img {
     display: flex;
     height: 1.5rem;
     align-self: center;
@@ -27,8 +27,7 @@ body {
     margin-right: 1rem;
 }
 
-.top-nav p {
-    font-size: 1rem;
+.top-nav-black p {
     margin: 0.66rem 0rem;
     
 }
@@ -64,6 +63,7 @@ body {
     font-weight:bold;
     background-color: black;
     color: white;
+    width: 20rem;
     
 }
 
@@ -100,4 +100,26 @@ body {
 
 .things {
     display: inline-flex;
+}
+
+.da {
+    display: flex;
+    height: 15rem;
+    width: 13rem;
+    width: 30%;
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+.da img {
+    padding: 2rem;
+    display: flex;
+    height: 9rem;
+
+}
+
+.things .cont p {
+    display: flex;
+    color: white;
+    background-color: black;
 }
